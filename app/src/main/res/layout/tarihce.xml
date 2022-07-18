@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="362dp"
+        android:layout_height="178dp"
+        app:srcCompat="@drawable/tarihce"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="90dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="69dp"
+        android:layout_height="41dp"
+        android:text="<"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="12dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="385dp"
+        android:layout_height="426dp"
+        android:text="Uygarlıklar beşiği Anadolu’nun cennet köşelerinden Bursa ve çevresi, çok eski çağlardan beri yerleşimlere sahne olmuştur. Bölgede eski yerleşim alanlarının yarattığı uygarlıkların günümüzden 7 bin yıl öncesine gittiği, Ilıpınar Höyüğü kazılarında ortaya çıkmıştır. Höyükte yapılan kazılar sonucunda, MÖ. 5200 yıl öncesine dek inen bir yerleşim alanı bulunmuştur.  Bursa’nın 7 km. kuzeyinde Demirtaş nahiyesinin 2,5 km. güneyinde, 90 m. çevresi 5 m. yüksekliği olan “Demirtaş Höyüğü” yer almaktadır. Bu höyükte genellikle elde, az miktarda da çarkta yapılmış kâse, küp ve testilere ait seramik parçaları bulunmaktadır. Bunlar erken bronz çağdan kalmış olup MÖ. 2500’lü yıllara tarihlenir.  Kentin 14 km batısında, Çayırköyü’nün 1 km güneybatısındaki “Çayırköy Höyüğü’nün” boyutları da Demirtaş Höyüğü ile aynıdır. Burada bulunan seramik parçalarında gri, kırmızı, kahverengi ve siyah renkler hakimdir. Bulunan seramik parçalarının önemli kısmı elde, çok azı ise çarkta yapılmıştır. Höyüğün en eski buluntusu MÖ. 2700 yılına aittir.  MÖ. 3. yüzyılda Bithynialılar ve Prusiaslılar tarafından kurulan kentin ilk adı “Prusa” idi. Yazılı kaynaklarda “Bitinya” olarak da geçen Bursa ve çevresinin en eski yerleşimleri İznik Gölü çevresindedir. Sadece İznik Gölü çevresinde, taş devirlerinde kurulduğu anlaşılan yedi önemli höyük bulunmaktadır. Bunlardan Orhangazi yakınlarındaki Ilıpınar ve onun 750 m. kadar doğusundaki Hacılartepe Höyüğü, Orhangazi-İznik yolunun Yeniköy altı mevkiinde Tepecik Höyüğü, İznik Gölü’nün doğusunda ise Körüstan, Üyücek Tepe, Höyücek ve Karadin höyükleri bulunmaktadır."
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="289dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

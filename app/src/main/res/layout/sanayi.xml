@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="328dp"
+        android:layout_height="199dp"
+        app:srcCompat="@drawable/sanayi"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="97dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="70dp"
+        android:layout_height="38dp"
+        android:text="<"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="18dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="403dp"
+        android:layout_height="434dp"
+        android:text="Bursa'nın bir başka özelliği de, ülke genelinde organize sanayi bölgelerinin kurulmasına öncülük etmesidir.  1961 yılında, bir müşavirlik firması, &quot;Devlet Planlama Teşkilatı&quot; adına, uygun bir sanayi alanı bulmak için Türkiye'nin her tarafında bir araştırma yapmıştır. Bu araştırma özellikle Bursa, İstanbul, Adapazarı, Adana, Mersin ve Zonguldak şehirlerinde gerçekleştirilmiştir.  Bu çalışmalar sonucunda, Bursa'nın bu tür bir proje için Türkiye'deki en uygun şehir olduğuna karar verilmiş ve bu öneri bir raporla sunulmuştur. Bursa Organize Sanayi Bölgesi, türünün gerçekleştirilen ilk örneğidir.  BURSA OSB’de yüksek standartlardaki hizmetleri devam ettirmek için her türlü altyapı bakım hizmeti sağlanmaktadır. Ayrıca, çöp toplama, yangın söndürme ve ambulans hizmetleri, firmalara ücretsiz olarak sunulmaktadır.  10.10.2012 tarihinde yapılan genel kurul ile BTSO' dan ayrılarak bölge katılımcıların oluşturduğu genel kurul aşamasına geçilmiş, BTSO Organize Sanayi Bölgesi olan ismi Bursa Organize Sanayi Bölgesi olarak değiştirilmiştir.  İlimiz sınırları içinde Organize Sanayi Bölgeleri Kanunu çerçevesinde tüzel kişilik sıfatını kazanmış 17 adet Organize Sanayi Bölgesi bulunmaktadır."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="296dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
